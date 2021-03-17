@@ -11,10 +11,12 @@
 		1D9AE8E6260031CA00F1447B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8E5260031CA00F1447B /* Tests_macOS.swift */; };
 		1D9AE8E8260031CA00F1447B /* Clubhouse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */; };
 		1D9AE8E9260031CA00F1447B /* Clubhouse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */; };
-		1D9AE8EA260031CA00F1447B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* ContentView.swift */; };
-		1D9AE8EB260031CA00F1447B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* ContentView.swift */; };
+		1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* HomeView.swift */; };
+		1D9AE8EB260031CA00F1447B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* HomeView.swift */; };
 		1D9AE8EC260031CA00F1447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C1260031CA00F1447B /* Assets.xcassets */; };
 		1D9AE8ED260031CA00F1447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C1260031CA00F1447B /* Assets.xcassets */; };
+		1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE9032600326300F1447B /* ClubhouseModel.swift */; };
+		1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE90D2600332000F1447B /* HomeViewObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubhouse2App.swift; sourceTree = "<group>"; };
-		1D9AE8C0260031C800F1447B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D9AE8C0260031C800F1447B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D9AE8C1260031CA00F1447B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9AE8C6260031CA00F1447B /* Clubhouse2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AE8C9260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		1D9AE8E1260031CA00F1447B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AE8E5260031CA00F1447B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1D9AE8E7260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9AE9032600326300F1447B /* ClubhouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseModel.swift; sourceTree = "<group>"; };
+		1D9AE90D2600332000F1447B /* HomeViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */,
-				1D9AE8C0260031C800F1447B /* ContentView.swift */,
+				1D9AE9002600323000F1447B /* Models */,
+				1D9AE9012600323600F1447B /* Views */,
+				1D9AE9022600323A00F1447B /* Controllers */,
 				1D9AE8C1260031CA00F1447B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +155,30 @@
 				1D9AE8E7260031CA00F1447B /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1D9AE9002600323000F1447B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D9AE9032600326300F1447B /* ClubhouseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D9AE9012600323600F1447B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D9AE8C0260031C800F1447B /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D9AE9022600323A00F1447B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D9AE90D2600332000F1447B /* HomeViewObject.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9AE8EA260031CA00F1447B /* ContentView.swift in Sources */,
+				1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */,
+				1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */,
+				1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */,
 				1D9AE8E8260031CA00F1447B /* Clubhouse2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9AE8EB260031CA00F1447B /* ContentView.swift in Sources */,
+				1D9AE8EB260031CA00F1447B /* HomeView.swift in Sources */,
 				1D9AE8E9260031CA00F1447B /* Clubhouse2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
