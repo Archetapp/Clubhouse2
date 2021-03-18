@@ -1,6 +1,6 @@
 //
 //  ClubhouseModel.swift
-//  Clubhouse2 (iOS)
+//  Clubhouse2
 //
 //  Created by Jared on 3/15/21.
 //
