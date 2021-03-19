@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D9AE8DB260031CA00F1447B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8DA260031CA00F1447B /* Tests_iOS.swift */; };
-		1D9AE8E6260031CA00F1447B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8E5260031CA00F1447B /* Tests_macOS.swift */; };
+		1D9AE8DB260031CA00F1447B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8DA260031CA00F1447B /* Tests.swift */; };
 		1D9AE8E8260031CA00F1447B /* Clubhouse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */; };
-		1D9AE8E9260031CA00F1447B /* Clubhouse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */; };
 		1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* HomeView.swift */; };
-		1D9AE8EB260031CA00F1447B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* HomeView.swift */; };
 		1D9AE8EC260031CA00F1447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C1260031CA00F1447B /* Assets.xcassets */; };
-		1D9AE8ED260031CA00F1447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C1260031CA00F1447B /* Assets.xcassets */; };
 		1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE9032600326300F1447B /* ClubhouseModel.swift */; };
 		1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE90D2600332000F1447B /* HomeViewObject.swift */; };
 /* End PBXBuildFile section */
@@ -27,13 +23,6 @@
 			remoteGlobalIDString = 1D9AE8C5260031CA00F1447B;
 			remoteInfo = "Clubhouse2 (iOS)";
 		};
-		1D9AE8E2260031CA00F1447B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D9AE8BA260031C700F1447B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D9AE8CD260031CA00F1447B;
-			remoteInfo = "Clubhouse2 (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -42,28 +31,15 @@
 		1D9AE8C1260031CA00F1447B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9AE8C6260031CA00F1447B /* Clubhouse2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AE8C9260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D9AE8CE260031CA00F1447B /* Clubhouse2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9AE8D0260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D9AE8D1260031CA00F1447B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		1D9AE8D6260031CA00F1447B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9AE8DA260031CA00F1447B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		1D9AE8D6260031CA00F1447B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9AE8DA260031CA00F1447B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		1D9AE8DC260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D9AE8E1260031CA00F1447B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9AE8E5260031CA00F1447B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		1D9AE8E7260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AE9032600326300F1447B /* ClubhouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseModel.swift; sourceTree = "<group>"; };
 		1D9AE90D2600332000F1447B /* HomeViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1D9AE8C3260031CA00F1447B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D9AE8CB260031CA00F1447B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,84 +53,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D9AE8DE260031CA00F1447B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1D9AE8B9260031C700F1447B = {
 			isa = PBXGroup;
 			children = (
-				1D9AE8BE260031C800F1447B /* Shared */,
-				1D9AE8C8260031CA00F1447B /* iOS */,
-				1D9AE8CF260031CA00F1447B /* macOS */,
-				1D9AE8D9260031CA00F1447B /* Tests iOS */,
-				1D9AE8E4260031CA00F1447B /* Tests macOS */,
+				1D9AE8BE260031C800F1447B /* Source */,
+				1D9AE8D9260031CA00F1447B /* Tests */,
 				1D9AE8C7260031CA00F1447B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D9AE8BE260031C800F1447B /* Shared */ = {
+		1D9AE8BE260031C800F1447B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1D9AE8C9260031CA00F1447B /* Info.plist */,
 				1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */,
 				1D9AE9002600323000F1447B /* Models */,
 				1D9AE9012600323600F1447B /* Views */,
 				1D9AE9022600323A00F1447B /* Controllers */,
 				1D9AE8C1260031CA00F1447B /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		1D9AE8C7260031CA00F1447B /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1D9AE8C6260031CA00F1447B /* Clubhouse2.app */,
-				1D9AE8CE260031CA00F1447B /* Clubhouse2.app */,
-				1D9AE8D6260031CA00F1447B /* Tests iOS.xctest */,
-				1D9AE8E1260031CA00F1447B /* Tests macOS.xctest */,
+				1D9AE8D6260031CA00F1447B /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D9AE8C8260031CA00F1447B /* iOS */ = {
+		1D9AE8D9260031CA00F1447B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1D9AE8C9260031CA00F1447B /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		1D9AE8CF260031CA00F1447B /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1D9AE8D0260031CA00F1447B /* Info.plist */,
-				1D9AE8D1260031CA00F1447B /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		1D9AE8D9260031CA00F1447B /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1D9AE8DA260031CA00F1447B /* Tests_iOS.swift */,
+				1D9AE8DA260031CA00F1447B /* Tests.swift */,
 				1D9AE8DC260031CA00F1447B /* Info.plist */,
 			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		1D9AE8E4260031CA00F1447B /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1D9AE8E5260031CA00F1447B /* Tests_macOS.swift */,
-				1D9AE8E7260031CA00F1447B /* Info.plist */,
-			);
-			path = "Tests macOS";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		1D9AE9002600323000F1447B /* Models */ = {
@@ -184,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D9AE8C5260031CA00F1447B /* Clubhouse2 (iOS) */ = {
+		1D9AE8C5260031CA00F1447B /* Clubhouse2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9AE8F0260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2 (iOS)" */;
+			buildConfigurationList = 1D9AE8F0260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2" */;
 			buildPhases = (
 				1D9AE8C2260031CA00F1447B /* Sources */,
 				1D9AE8C3260031CA00F1447B /* Frameworks */,
@@ -196,31 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = "Clubhouse2 (iOS)";
+			name = Clubhouse2;
 			productName = "Clubhouse2 (iOS)";
 			productReference = 1D9AE8C6260031CA00F1447B /* Clubhouse2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D9AE8CD260031CA00F1447B /* Clubhouse2 (macOS) */ = {
+		1D9AE8D5260031CA00F1447B /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9AE8F3260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2 (macOS)" */;
-			buildPhases = (
-				1D9AE8CA260031CA00F1447B /* Sources */,
-				1D9AE8CB260031CA00F1447B /* Frameworks */,
-				1D9AE8CC260031CA00F1447B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Clubhouse2 (macOS)";
-			productName = "Clubhouse2 (macOS)";
-			productReference = 1D9AE8CE260031CA00F1447B /* Clubhouse2.app */;
-			productType = "com.apple.product-type.application";
-		};
-		1D9AE8D5260031CA00F1447B /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9AE8F6260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 1D9AE8F6260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				1D9AE8D2260031CA00F1447B /* Sources */,
 				1D9AE8D3260031CA00F1447B /* Frameworks */,
@@ -231,27 +153,9 @@
 			dependencies = (
 				1D9AE8D8260031CA00F1447B /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
+			name = Tests;
 			productName = "Tests iOS";
-			productReference = 1D9AE8D6260031CA00F1447B /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		1D9AE8E0260031CA00F1447B /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9AE8F9260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				1D9AE8DD260031CA00F1447B /* Sources */,
-				1D9AE8DE260031CA00F1447B /* Frameworks */,
-				1D9AE8DF260031CA00F1447B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1D9AE8E3260031CA00F1447B /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 1D9AE8E1260031CA00F1447B /* Tests macOS.xctest */;
+			productReference = 1D9AE8D6260031CA00F1447B /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -266,16 +170,9 @@
 					1D9AE8C5260031CA00F1447B = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					1D9AE8CD260031CA00F1447B = {
-						CreatedOnToolsVersion = 12.4;
-					};
 					1D9AE8D5260031CA00F1447B = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 1D9AE8C5260031CA00F1447B;
-					};
-					1D9AE8E0260031CA00F1447B = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1D9AE8CD260031CA00F1447B;
 					};
 				};
 			};
@@ -292,10 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D9AE8C5260031CA00F1447B /* Clubhouse2 (iOS) */,
-				1D9AE8CD260031CA00F1447B /* Clubhouse2 (macOS) */,
-				1D9AE8D5260031CA00F1447B /* Tests iOS */,
-				1D9AE8E0260031CA00F1447B /* Tests macOS */,
+				1D9AE8C5260031CA00F1447B /* Clubhouse2 */,
+				1D9AE8D5260031CA00F1447B /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,22 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D9AE8CC260031CA00F1447B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D9AE8ED260031CA00F1447B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D9AE8D4260031CA00F1447B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D9AE8DF260031CA00F1447B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,28 +225,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D9AE8CA260031CA00F1447B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D9AE8EB260031CA00F1447B /* HomeView.swift in Sources */,
-				1D9AE8E9260031CA00F1447B /* Clubhouse2App.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D9AE8D2260031CA00F1447B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9AE8DB260031CA00F1447B /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D9AE8DD260031CA00F1447B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D9AE8E6260031CA00F1447B /* Tests_macOS.swift in Sources */,
+				1D9AE8DB260031CA00F1447B /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,13 +238,8 @@
 /* Begin PBXTargetDependency section */
 		1D9AE8D8260031CA00F1447B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D9AE8C5260031CA00F1447B /* Clubhouse2 (iOS) */;
+			target = 1D9AE8C5260031CA00F1447B /* Clubhouse2 */;
 			targetProxy = 1D9AE8D7260031CA00F1447B /* PBXContainerItemProxy */;
-		};
-		1D9AE8E3260031CA00F1447B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D9AE8CD260031CA00F1447B /* Clubhouse2 (macOS) */;
-			targetProxy = 1D9AE8E2260031CA00F1447B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,9 +361,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
+				DEVELOPMENT_TEAM = 5K99777NES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -525,9 +383,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
+				DEVELOPMENT_TEAM = 5K99777NES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,73 +400,25 @@
 			};
 			name = Release;
 		};
-		1D9AE8F4260031CA00F1447B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Archetapp.Clubhouse2;
-				PRODUCT_NAME = Clubhouse2;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1D9AE8F5260031CA00F1447B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Archetapp.Clubhouse2;
-				PRODUCT_NAME = Clubhouse2;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		1D9AE8F7260031CA00F1447B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = Archetapp.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Clubhouse2 (iOS)";
+				TEST_TARGET_NAME = Clubhouse2;
 			};
 			name = Debug;
 		};
@@ -617,65 +427,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = Archetapp.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Clubhouse2 (iOS)";
+				TEST_TARGET_NAME = Clubhouse2;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1D9AE8FA260031CA00F1447B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Clubhouse2 (macOS)";
-			};
-			name = Debug;
-		};
-		1D9AE8FB260031CA00F1447B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 557H2MLN2D;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Clubhouse2 (macOS)";
 			};
 			name = Release;
 		};
@@ -691,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D9AE8F0260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2 (iOS)" */ = {
+		1D9AE8F0260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D9AE8F1260031CA00F1447B /* Debug */,
@@ -700,29 +466,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D9AE8F3260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2 (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D9AE8F4260031CA00F1447B /* Debug */,
-				1D9AE8F5260031CA00F1447B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1D9AE8F6260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		1D9AE8F6260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D9AE8F7260031CA00F1447B /* Debug */,
 				1D9AE8F8260031CA00F1447B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1D9AE8F9260031CA00F1447B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D9AE8FA260031CA00F1447B /* Debug */,
-				1D9AE8FB260031CA00F1447B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
