@@ -12,11 +12,11 @@ struct Clubhouse {
     var roomId : String = ""
     var numOfPeople : Int = 0
     var numOfSpeakers : Int = 0
-    var users : [User] = []
+    var users : [DummyUser] = []
 }
 
 
-struct User {
+struct DummyUser {
     var id : String = ""
     var name : String = ""
     var profileImage : String = ""

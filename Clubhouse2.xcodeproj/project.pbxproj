@@ -3,16 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18EAB09BBBAF431292ABED89 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E46BE1045DE4977BE90938D /* amplifyconfiguration.json */; };
 		1D9AE8DB260031CA00F1447B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8DA260031CA00F1447B /* Tests.swift */; };
 		1D9AE8E8260031CA00F1447B /* Clubhouse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8BF260031C800F1447B /* Clubhouse2App.swift */; };
 		1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C0260031C800F1447B /* HomeView.swift */; };
 		1D9AE8EC260031CA00F1447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AE8C1260031CA00F1447B /* Assets.xcassets */; };
 		1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE9032600326300F1447B /* ClubhouseModel.swift */; };
 		1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE90D2600332000F1447B /* HomeViewObject.swift */; };
+		200CFA0387AA81660FF6FAF2 /* Pods_Clubhouse2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724773154D525D442272ED56 /* Pods_Clubhouse2.framework */; };
+		7CE75C7A26057383002B9CE4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C5D26057382002B9CE4 /* Room.swift */; };
+		7CE75C7B26057383002B9CE4 /* Nomination+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C5E26057382002B9CE4 /* Nomination+Schema.swift */; };
+		7CE75C7C26057383002B9CE4 /* ExternalHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C5F26057382002B9CE4 /* ExternalHandle.swift */; };
+		7CE75C7D26057383002B9CE4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6026057382002B9CE4 /* User.swift */; };
+		7CE75C7E26057383002B9CE4 /* Topic+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6126057382002B9CE4 /* Topic+Schema.swift */; };
+		7CE75C7F26057383002B9CE4 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6226057382002B9CE4 /* Club.swift */; };
+		7CE75C8026057383002B9CE4 /* RoomType+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6326057382002B9CE4 /* RoomType+Schema.swift */; };
+		7CE75C8126057383002B9CE4 /* ClubTopic+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6426057382002B9CE4 /* ClubTopic+Schema.swift */; };
+		7CE75C8226057383002B9CE4 /* ClubFollow+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6526057382002B9CE4 /* ClubFollow+Schema.swift */; };
+		7CE75C8326057383002B9CE4 /* Follow+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6626057382002B9CE4 /* Follow+Schema.swift */; };
+		7CE75C8426057383002B9CE4 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6726057382002B9CE4 /* RoomType.swift */; };
+		7CE75C8526057383002B9CE4 /* TopicCategory+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6826057382002B9CE4 /* TopicCategory+Schema.swift */; };
+		7CE75C8626057383002B9CE4 /* ClubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6926057382002B9CE4 /* ClubUser.swift */; };
+		7CE75C8726057383002B9CE4 /* ClubTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6A26057382002B9CE4 /* ClubTopic.swift */; };
+		7CE75C8826057383002B9CE4 /* TopicCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6B26057382002B9CE4 /* TopicCategory.swift */; };
+		7CE75C8926057383002B9CE4 /* Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6C26057382002B9CE4 /* Follow.swift */; };
+		7CE75C8A26057383002B9CE4 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6D26057382002B9CE4 /* Activity.swift */; };
+		7CE75C8B26057383002B9CE4 /* Event+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6E26057383002B9CE4 /* Event+Schema.swift */; };
+		7CE75C8C26057383002B9CE4 /* Nomination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C6F26057383002B9CE4 /* Nomination.swift */; };
+		7CE75C8D26057383002B9CE4 /* Activity+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7026057383002B9CE4 /* Activity+Schema.swift */; };
+		7CE75C8E26057383002B9CE4 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7126057383002B9CE4 /* Topic.swift */; };
+		7CE75C8F26057383002B9CE4 /* ClubFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7226057383002B9CE4 /* ClubFollow.swift */; };
+		7CE75C9026057383002B9CE4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7326057383002B9CE4 /* Event.swift */; };
+		7CE75C9126057383002B9CE4 /* User+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7426057383002B9CE4 /* User+Schema.swift */; };
+		7CE75C9226057383002B9CE4 /* ClubUser+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7526057383002B9CE4 /* ClubUser+Schema.swift */; };
+		7CE75C9326057383002B9CE4 /* ExternalHandle+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7626057383002B9CE4 /* ExternalHandle+Schema.swift */; };
+		7CE75C9426057383002B9CE4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7726057383002B9CE4 /* AmplifyModels.swift */; };
+		7CE75C9526057383002B9CE4 /* Room+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7826057383002B9CE4 /* Room+Schema.swift */; };
+		7CE75C9626057383002B9CE4 /* Club+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7926057383002B9CE4 /* Club+Schema.swift */; };
+		ED1B5729D0D24447AFA60AE0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 68EE4C81F5E943BFB436C9D0 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +68,42 @@
 		1D9AE8DC260031CA00F1447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AE9032600326300F1447B /* ClubhouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseModel.swift; sourceTree = "<group>"; };
 		1D9AE90D2600332000F1447B /* HomeViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewObject.swift; sourceTree = "<group>"; };
+		3E46BE1045DE4977BE90938D /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		67F4652C6B58F8ACBDC6397C /* Pods-Clubhouse2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse2.release.xcconfig"; path = "Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2.release.xcconfig"; sourceTree = "<group>"; };
+		68EE4C81F5E943BFB436C9D0 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		724773154D525D442272ED56 /* Pods_Clubhouse2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clubhouse2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE75C5D26057382002B9CE4 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Room.swift; path = amplify/generated/models/Room.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C5E26057382002B9CE4 /* Nomination+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Nomination+Schema.swift"; path = "amplify/generated/models/Nomination+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C5F26057382002B9CE4 /* ExternalHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExternalHandle.swift; path = amplify/generated/models/ExternalHandle.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6026057382002B9CE4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = amplify/generated/models/User.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6126057382002B9CE4 /* Topic+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Topic+Schema.swift"; path = "amplify/generated/models/Topic+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6226057382002B9CE4 /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Club.swift; path = amplify/generated/models/Club.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6326057382002B9CE4 /* RoomType+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RoomType+Schema.swift"; path = "amplify/generated/models/RoomType+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6426057382002B9CE4 /* ClubTopic+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ClubTopic+Schema.swift"; path = "amplify/generated/models/ClubTopic+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6526057382002B9CE4 /* ClubFollow+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ClubFollow+Schema.swift"; path = "amplify/generated/models/ClubFollow+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6626057382002B9CE4 /* Follow+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Follow+Schema.swift"; path = "amplify/generated/models/Follow+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6726057382002B9CE4 /* RoomType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomType.swift; path = amplify/generated/models/RoomType.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6826057382002B9CE4 /* TopicCategory+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TopicCategory+Schema.swift"; path = "amplify/generated/models/TopicCategory+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6926057382002B9CE4 /* ClubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubUser.swift; path = amplify/generated/models/ClubUser.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6A26057382002B9CE4 /* ClubTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubTopic.swift; path = amplify/generated/models/ClubTopic.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6B26057382002B9CE4 /* TopicCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopicCategory.swift; path = amplify/generated/models/TopicCategory.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6C26057382002B9CE4 /* Follow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Follow.swift; path = amplify/generated/models/Follow.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6D26057382002B9CE4 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = amplify/generated/models/Activity.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C6E26057383002B9CE4 /* Event+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Event+Schema.swift"; path = "amplify/generated/models/Event+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C6F26057383002B9CE4 /* Nomination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nomination.swift; path = amplify/generated/models/Nomination.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C7026057383002B9CE4 /* Activity+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Activity+Schema.swift"; path = "amplify/generated/models/Activity+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C7126057383002B9CE4 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Topic.swift; path = amplify/generated/models/Topic.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C7226057383002B9CE4 /* ClubFollow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubFollow.swift; path = amplify/generated/models/ClubFollow.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C7326057383002B9CE4 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = amplify/generated/models/Event.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C7426057383002B9CE4 /* User+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+Schema.swift"; path = "amplify/generated/models/User+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C7526057383002B9CE4 /* ClubUser+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ClubUser+Schema.swift"; path = "amplify/generated/models/ClubUser+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C7626057383002B9CE4 /* ExternalHandle+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ExternalHandle+Schema.swift"; path = "amplify/generated/models/ExternalHandle+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C7726057383002B9CE4 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
+		7CE75C7826057383002B9CE4 /* Room+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Room+Schema.swift"; path = "amplify/generated/models/Room+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75C7926057383002B9CE4 /* Club+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Club+Schema.swift"; path = "amplify/generated/models/Club+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		985C35953FA64E8697563BC4 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		E517999A158D4138810006B0 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		EF3E7E0A727D2712FD874438 /* Pods-Clubhouse2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse2.debug.xcconfig"; path = "Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200CFA0387AA81660FF6FAF2 /* Pods_Clubhouse2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +125,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D00EBE4798241FCB7A2632B /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				985C35953FA64E8697563BC4 /* amplifytools.xcconfig */,
+				3E46BE1045DE4977BE90938D /* amplifyconfiguration.json */,
+				68EE4C81F5E943BFB436C9D0 /* awsconfiguration.json */,
+				E517999A158D4138810006B0 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
 		1D9AE8B9260031C700F1447B = {
 			isa = PBXGroup;
 			children = (
+				1D00EBE4798241FCB7A2632B /* AmplifyConfig */,
 				1D9AE8BE260031C800F1447B /* Source */,
 				1D9AE8D9260031CA00F1447B /* Tests */,
 				1D9AE8C7260031CA00F1447B /* Products */,
+				2BE7AA234B93DD8E88C36F58 /* Pods */,
+				85D6AB06E95B4136789C5C9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +183,7 @@
 		1D9AE9002600323000F1447B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7C3F5B1F2605709A00213E41 /* Generated */,
 				1D9AE9032600326300F1447B /* ClubhouseModel.swift */,
 			);
 			path = Models;
@@ -120,6 +205,59 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		2BE7AA234B93DD8E88C36F58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF3E7E0A727D2712FD874438 /* Pods-Clubhouse2.debug.xcconfig */,
+				67F4652C6B58F8ACBDC6397C /* Pods-Clubhouse2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C3F5B1F2605709A00213E41 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7CE75C6D26057382002B9CE4 /* Activity.swift */,
+				7CE75C7026057383002B9CE4 /* Activity+Schema.swift */,
+				7CE75C7726057383002B9CE4 /* AmplifyModels.swift */,
+				7CE75C6226057382002B9CE4 /* Club.swift */,
+				7CE75C7926057383002B9CE4 /* Club+Schema.swift */,
+				7CE75C7226057383002B9CE4 /* ClubFollow.swift */,
+				7CE75C6526057382002B9CE4 /* ClubFollow+Schema.swift */,
+				7CE75C6A26057382002B9CE4 /* ClubTopic.swift */,
+				7CE75C6426057382002B9CE4 /* ClubTopic+Schema.swift */,
+				7CE75C6926057382002B9CE4 /* ClubUser.swift */,
+				7CE75C7526057383002B9CE4 /* ClubUser+Schema.swift */,
+				7CE75C7326057383002B9CE4 /* Event.swift */,
+				7CE75C6E26057383002B9CE4 /* Event+Schema.swift */,
+				7CE75C5F26057382002B9CE4 /* ExternalHandle.swift */,
+				7CE75C7626057383002B9CE4 /* ExternalHandle+Schema.swift */,
+				7CE75C6C26057382002B9CE4 /* Follow.swift */,
+				7CE75C6626057382002B9CE4 /* Follow+Schema.swift */,
+				7CE75C6F26057383002B9CE4 /* Nomination.swift */,
+				7CE75C5E26057382002B9CE4 /* Nomination+Schema.swift */,
+				7CE75C5D26057382002B9CE4 /* Room.swift */,
+				7CE75C7826057383002B9CE4 /* Room+Schema.swift */,
+				7CE75C6726057382002B9CE4 /* RoomType.swift */,
+				7CE75C6326057382002B9CE4 /* RoomType+Schema.swift */,
+				7CE75C7126057383002B9CE4 /* Topic.swift */,
+				7CE75C6126057382002B9CE4 /* Topic+Schema.swift */,
+				7CE75C6B26057382002B9CE4 /* TopicCategory.swift */,
+				7CE75C6826057382002B9CE4 /* TopicCategory+Schema.swift */,
+				7CE75C6026057382002B9CE4 /* User.swift */,
+				7CE75C7426057383002B9CE4 /* User+Schema.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		85D6AB06E95B4136789C5C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				724773154D525D442272ED56 /* Pods_Clubhouse2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D9AE8F0260031CA00F1447B /* Build configuration list for PBXNativeTarget "Clubhouse2" */;
 			buildPhases = (
+				EA7CFB2E8D4E97E3B3E24B31 /* [CP] Check Pods Manifest.lock */,
 				1D9AE8C2260031CA00F1447B /* Sources */,
 				1D9AE8C3260031CA00F1447B /* Frameworks */,
 				1D9AE8C4260031CA00F1447B /* Resources */,
+				2AFDE47B81FF27536C88E857 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9AE8EC260031CA00F1447B /* Assets.xcassets in Resources */,
+				18EAB09BBBAF431292ABED89 /* amplifyconfiguration.json in Resources */,
+				ED1B5729D0D24447AFA60AE0 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,15 +355,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AFDE47B81FF27536C88E857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7CFB2E8D4E97E3B3E24B31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clubhouse2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D9AE8C2260031CA00F1447B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE75C8C26057383002B9CE4 /* Nomination.swift in Sources */,
 				1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */,
+				7CE75C8326057383002B9CE4 /* Follow+Schema.swift in Sources */,
+				7CE75C9126057383002B9CE4 /* User+Schema.swift in Sources */,
+				7CE75C8426057383002B9CE4 /* RoomType.swift in Sources */,
+				7CE75C9526057383002B9CE4 /* Room+Schema.swift in Sources */,
+				7CE75C9326057383002B9CE4 /* ExternalHandle+Schema.swift in Sources */,
+				7CE75C8726057383002B9CE4 /* ClubTopic.swift in Sources */,
+				7CE75C8226057383002B9CE4 /* ClubFollow+Schema.swift in Sources */,
+				7CE75C9226057383002B9CE4 /* ClubUser+Schema.swift in Sources */,
+				7CE75C8E26057383002B9CE4 /* Topic.swift in Sources */,
+				7CE75C7C26057383002B9CE4 /* ExternalHandle.swift in Sources */,
+				7CE75C8026057383002B9CE4 /* RoomType+Schema.swift in Sources */,
+				7CE75C8826057383002B9CE4 /* TopicCategory.swift in Sources */,
+				7CE75C9026057383002B9CE4 /* Event.swift in Sources */,
+				7CE75C8D26057383002B9CE4 /* Activity+Schema.swift in Sources */,
 				1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */,
+				7CE75C8A26057383002B9CE4 /* Activity.swift in Sources */,
 				1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */,
+				7CE75C8926057383002B9CE4 /* Follow.swift in Sources */,
+				7CE75C7D26057383002B9CE4 /* User.swift in Sources */,
+				7CE75C9626057383002B9CE4 /* Club+Schema.swift in Sources */,
+				7CE75C8126057383002B9CE4 /* ClubTopic+Schema.swift in Sources */,
 				1D9AE8E8260031CA00F1447B /* Clubhouse2App.swift in Sources */,
+				7CE75C8B26057383002B9CE4 /* Event+Schema.swift in Sources */,
+				7CE75C7B26057383002B9CE4 /* Nomination+Schema.swift in Sources */,
+				7CE75C7F26057383002B9CE4 /* Club.swift in Sources */,
+				7CE75C7A26057383002B9CE4 /* Room.swift in Sources */,
+				7CE75C8F26057383002B9CE4 /* ClubFollow.swift in Sources */,
+				7CE75C8526057383002B9CE4 /* TopicCategory+Schema.swift in Sources */,
+				7CE75C8626057383002B9CE4 /* ClubUser.swift in Sources */,
+				7CE75C9426057383002B9CE4 /* AmplifyModels.swift in Sources */,
+				7CE75C7E26057383002B9CE4 /* Topic+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +570,7 @@
 		};
 		1D9AE8F1260031CA00F1447B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3E7E0A727D2712FD874438 /* Pods-Clubhouse2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -379,6 +593,7 @@
 		};
 		1D9AE8F2260031CA00F1447B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F4652C6B58F8ACBDC6397C /* Pods-Clubhouse2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
