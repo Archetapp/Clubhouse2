@@ -14,6 +14,7 @@ extension User {
     case externalHandles
     case joinDate
     case clubs
+    case avatarKey
   }
   
   public static let keys = CodingKeys.self
@@ -33,7 +34,8 @@ extension User {
       .field(user.bio, is: .optional, ofType: .string),
       .field(user.externalHandles, is: .optional, ofType: .embeddedCollection(of: ExternalHandle.self)),
       .field(user.joinDate, is: .optional, ofType: .dateTime),
-      .hasMany(user.clubs, is: .optional, ofType: ClubUser.self, associatedWith: ClubUser.keys.user)
+      .hasMany(user.clubs, is: .optional, ofType: ClubUser.self, associatedWith: ClubUser.keys.user),
+      .field(user.avatarKey, is: .optional, ofType: .string)
     )
     }
 }

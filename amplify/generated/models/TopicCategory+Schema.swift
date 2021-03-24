@@ -6,7 +6,7 @@ extension TopicCategory {
   // MARK: - CodingKeys 
    public enum CodingKeys: String, ModelKey {
     case id
-    case nam
+    case name
     case topics
   }
   
@@ -20,7 +20,7 @@ extension TopicCategory {
     
     model.fields(
       .id(),
-      .field(topicCategory.nam, is: .required, ofType: .string),
+      .field(topicCategory.name, is: .required, ofType: .string),
       .hasMany(topicCategory.topics, is: .optional, ofType: Topic.self, associatedWith: Topic.keys.topiccategoryID)
     )
     }

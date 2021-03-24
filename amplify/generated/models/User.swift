@@ -12,6 +12,7 @@ public struct User: Model {
   public var externalHandles: [ExternalHandle]?
   public var joinDate: Temporal.DateTime?
   public var clubs: List<ClubUser>?
+  public var avatarKey: String?
   
   public init(id: String = UUID().uuidString,
       name: String? = nil,
@@ -21,7 +22,8 @@ public struct User: Model {
       bio: String? = nil,
       externalHandles: [ExternalHandle]? = [],
       joinDate: Temporal.DateTime? = nil,
-      clubs: List<ClubUser>? = []) {
+      clubs: List<ClubUser>? = [],
+      avatarKey: String? = nil) {
       self.id = id
       self.name = name
       self.handle = handle
@@ -31,5 +33,6 @@ public struct User: Model {
       self.externalHandles = externalHandles
       self.joinDate = joinDate
       self.clubs = clubs
+      self.avatarKey = avatarKey
   }
 }

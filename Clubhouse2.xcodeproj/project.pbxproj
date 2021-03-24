@@ -44,6 +44,13 @@
 		7CE75C9426057383002B9CE4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7726057383002B9CE4 /* AmplifyModels.swift */; };
 		7CE75C9526057383002B9CE4 /* Room+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7826057383002B9CE4 /* Room+Schema.swift */; };
 		7CE75C9626057383002B9CE4 /* Club+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75C7926057383002B9CE4 /* Club+Schema.swift */; };
+		7CE75CA526057C08002B9CE4 /* RoomParticipant+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CA326057C08002B9CE4 /* RoomParticipant+Schema.swift */; };
+		7CE75CA626057C08002B9CE4 /* RoomParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CA426057C08002B9CE4 /* RoomParticipant.swift */; };
+		7CE75CAD26057CFD002B9CE4 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CAC26057CFD002B9CE4 /* DependencyManager.swift */; };
+		7CE75CB126057D2C002B9CE4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CB026057D2C002B9CE4 /* DataService.swift */; };
+		7CE75CB526057D61002B9CE4 /* AmplifyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CB426057D61002B9CE4 /* AmplifyDataService.swift */; };
+		7CE75CB926057DCF002B9CE4 /* ClubhouseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CB826057DCF002B9CE4 /* ClubhouseError.swift */; };
+		7CE75CBD26057F83002B9CE4 /* ClubhouseDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE75CBC26057F83002B9CE4 /* ClubhouseDependencyManager.swift */; };
 		ED1B5729D0D24447AFA60AE0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 68EE4C81F5E943BFB436C9D0 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +108,13 @@
 		7CE75C7726057383002B9CE4 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
 		7CE75C7826057383002B9CE4 /* Room+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Room+Schema.swift"; path = "amplify/generated/models/Room+Schema.swift"; sourceTree = SOURCE_ROOT; };
 		7CE75C7926057383002B9CE4 /* Club+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Club+Schema.swift"; path = "amplify/generated/models/Club+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75CA326057C08002B9CE4 /* RoomParticipant+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RoomParticipant+Schema.swift"; path = "amplify/generated/models/RoomParticipant+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7CE75CA426057C08002B9CE4 /* RoomParticipant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomParticipant.swift; path = amplify/generated/models/RoomParticipant.swift; sourceTree = SOURCE_ROOT; };
+		7CE75CAC26057CFD002B9CE4 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		7CE75CB026057D2C002B9CE4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7CE75CB426057D61002B9CE4 /* AmplifyDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyDataService.swift; sourceTree = "<group>"; };
+		7CE75CB826057DCF002B9CE4 /* ClubhouseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseError.swift; sourceTree = "<group>"; };
+		7CE75CBC26057F83002B9CE4 /* ClubhouseDependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseDependencyManager.swift; sourceTree = "<group>"; };
 		985C35953FA64E8697563BC4 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 		E517999A158D4138810006B0 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		EF3E7E0A727D2712FD874438 /* Pods-Clubhouse2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse2.debug.xcconfig"; path = "Target Support Files/Pods-Clubhouse2/Pods-Clubhouse2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +171,7 @@
 				1D9AE9002600323000F1447B /* Models */,
 				1D9AE9012600323600F1447B /* Views */,
 				1D9AE9022600323A00F1447B /* Controllers */,
+				7CE75CAB26057CDA002B9CE4 /* Services */,
 				1D9AE8C1260031CA00F1447B /* Assets.xcassets */,
 			);
 			path = Source;
@@ -185,6 +200,7 @@
 			children = (
 				7C3F5B1F2605709A00213E41 /* Generated */,
 				1D9AE9032600326300F1447B /* ClubhouseModel.swift */,
+				7CE75CB826057DCF002B9CE4 /* ClubhouseError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +254,8 @@
 				7CE75C5E26057382002B9CE4 /* Nomination+Schema.swift */,
 				7CE75C5D26057382002B9CE4 /* Room.swift */,
 				7CE75C7826057383002B9CE4 /* Room+Schema.swift */,
+				7CE75CA426057C08002B9CE4 /* RoomParticipant.swift */,
+				7CE75CA326057C08002B9CE4 /* RoomParticipant+Schema.swift */,
 				7CE75C6726057382002B9CE4 /* RoomType.swift */,
 				7CE75C6326057382002B9CE4 /* RoomType+Schema.swift */,
 				7CE75C7126057383002B9CE4 /* Topic.swift */,
@@ -248,6 +266,17 @@
 				7CE75C7426057383002B9CE4 /* User+Schema.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		7CE75CAB26057CDA002B9CE4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7CE75CAC26057CFD002B9CE4 /* DependencyManager.swift */,
+				7CE75CB026057D2C002B9CE4 /* DataService.swift */,
+				7CE75CB426057D61002B9CE4 /* AmplifyDataService.swift */,
+				7CE75CBC26057F83002B9CE4 /* ClubhouseDependencyManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		85D6AB06E95B4136789C5C9C /* Frameworks */ = {
@@ -403,7 +432,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE75C8C26057383002B9CE4 /* Nomination.swift in Sources */,
+				7CE75CA526057C08002B9CE4 /* RoomParticipant+Schema.swift in Sources */,
 				1D9AE9042600326300F1447B /* ClubhouseModel.swift in Sources */,
+				7CE75CA626057C08002B9CE4 /* RoomParticipant.swift in Sources */,
 				7CE75C8326057383002B9CE4 /* Follow+Schema.swift in Sources */,
 				7CE75C9126057383002B9CE4 /* User+Schema.swift in Sources */,
 				7CE75C8426057383002B9CE4 /* RoomType.swift in Sources */,
@@ -416,11 +447,16 @@
 				7CE75C7C26057383002B9CE4 /* ExternalHandle.swift in Sources */,
 				7CE75C8026057383002B9CE4 /* RoomType+Schema.swift in Sources */,
 				7CE75C8826057383002B9CE4 /* TopicCategory.swift in Sources */,
+				7CE75CAD26057CFD002B9CE4 /* DependencyManager.swift in Sources */,
 				7CE75C9026057383002B9CE4 /* Event.swift in Sources */,
 				7CE75C8D26057383002B9CE4 /* Activity+Schema.swift in Sources */,
 				1D9AE90E2600332000F1447B /* HomeViewObject.swift in Sources */,
 				7CE75C8A26057383002B9CE4 /* Activity.swift in Sources */,
+				7CE75CB126057D2C002B9CE4 /* DataService.swift in Sources */,
+				7CE75CBD26057F83002B9CE4 /* ClubhouseDependencyManager.swift in Sources */,
+				7CE75CB526057D61002B9CE4 /* AmplifyDataService.swift in Sources */,
 				1D9AE8EA260031CA00F1447B /* HomeView.swift in Sources */,
+				7CE75CB926057DCF002B9CE4 /* ClubhouseError.swift in Sources */,
 				7CE75C8926057383002B9CE4 /* Follow.swift in Sources */,
 				7CE75C7D26057383002B9CE4 /* User.swift in Sources */,
 				7CE75C9626057383002B9CE4 /* Club+Schema.swift in Sources */,

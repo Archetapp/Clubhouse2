@@ -23,7 +23,7 @@ extension Event {
       .id(),
       .field(event.date, is: .required, ofType: .dateTime),
       .field(event.description, is: .optional, ofType: .string),
-      .belongsTo(event.room, is: .required, ofType: Room.self, targetName: "eventRoomId")
+      .belongsTo(event.room, is: .required, ofType: RoomParticipant.self, targetName: "eventRoomId")
     )
     }
 }
