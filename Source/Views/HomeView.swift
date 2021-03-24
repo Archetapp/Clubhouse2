@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @ObservedObject var homeViewObject = HomeViewObject.shared
+    @StateObject var homeViewObject = HomeViewObject.shared
     
     var body: some View {
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)

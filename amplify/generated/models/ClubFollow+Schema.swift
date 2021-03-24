@@ -20,7 +20,7 @@ extension ClubFollow {
     
     model.fields(
       .id(),
-      .belongsTo(clubFollow.follower, is: .optional, ofType: User.self, targetName: "clubFollowFollowerId"),
+      .belongsTo(clubFollow.follower, is: .required, ofType: User.self, targetName: "clubFollowFollowerId"),
       .field(clubFollow.clubID, is: .optional, ofType: .string)
     )
     }

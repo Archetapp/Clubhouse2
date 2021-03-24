@@ -21,7 +21,7 @@ extension Activity {
     model.fields(
       .id(),
       .field(activity.activityType, is: .required, ofType: .string),
-      .belongsTo(activity.user, is: .optional, ofType: User.self, targetName: "activityUserId")
+      .belongsTo(activity.user, is: .required, ofType: User.self, targetName: "activityUserId")
     )
     }
 }
