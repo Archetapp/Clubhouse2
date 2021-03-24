@@ -8,6 +8,8 @@ extension Room {
     case id
     case topic
     case club
+    case roomType
+    case participants
   }
   
   public static let keys = CodingKeys.self
@@ -21,7 +23,9 @@ extension Room {
     model.fields(
       .id(),
       .field(room.topic, is: .optional, ofType: .string),
-      .belongsTo(room.club, is: .optional, ofType: ClubFollow.self, targetName: "roomClubId")
+      .belongsTo(room.club, is: .optional, ofType: ClubFollow.self, targetName: "roomClubId"),
+      .belongsTo(room.roomType, is: .optional, ofType: RoomType.self, targetName: "roomRoomTypeId"),
+      .hasMany(room.participants, is: .optional, ofType: RoomParticipant.self, associatedWith: RoomParticipant.keys.roomID)
     )
     }
 }

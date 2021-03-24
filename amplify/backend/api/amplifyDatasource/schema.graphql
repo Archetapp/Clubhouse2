@@ -1,6 +1,13 @@
+type RoomParticipant @model @auth(rules: [{allow: public}]) @key(name: "byRoom", fields: ["roomID"]) {
+  id: ID!
+  roomParticipantRole: String!
+  user: User! @connection
+  roomID: ID!
+}
+
 type ClubFollow @model @auth(rules: [{allow: public}]) @key(name: "byClub", fields: ["clubID"]) {
   id: ID!
-  follower: User @connection
+  follower: User! @connection
   clubID: ID
 }
 
@@ -19,20 +26,20 @@ type Follow @model @auth(rules: [{allow: public}]) {
 type Activity @model @auth(rules: [{allow: public}]) {
   id: ID!
   activityType: String!
-  user: User @connection
+  user: User! @connection
 }
 
 type Event @model @auth(rules: [{allow: public}]) {
   id: ID!
   date: AWSDateTime!
   description: String
-  room: Room! @connection
+  room: RoomParticipant! @connection
 }
 
 type TopicCategory @model @auth(rules: [{allow: public}]) {
   id: ID!
-  nam: String!
-  topics: [Topic] @connection(keyName: "byTopicCategory", fields: ["id"])
+  name: String!
+  topics: [Topic!] @connection(keyName: "byTopicCategory", fields: ["id"])
 }
 
 type Topic @model @auth(rules: [{allow: public}]) @key(name: "byTopicCategory", fields: ["topiccategoryID"]) {
@@ -57,6 +64,7 @@ type User @model @auth(rules: [{allow: public}]) {
   externalHandles: [ExternalHandle]
   joinDate: AWSDateTime
   clubs: [ClubUser] @connection(keyName: "byUser", fields: ["id"])
+  avatarKey: String
 }
 
 type RoomType @model @auth(rules: [{allow: public}]) {
@@ -78,6 +86,8 @@ type Room @model @auth(rules: [{allow: public}]) {
   id: ID!
   topic: String
   club: ClubFollow @connection
+  roomType: RoomType @connection
+  participants: [RoomParticipant] @connection(keyName: "byRoom", fields: ["id"])
 }
 
 type ClubUser @model(queries: null) @key(name: "byClub", fields: ["clubID", "userID"]) @key(name: "byUser", fields: ["userID", "clubID"]) @auth(rules: [{allow: public}, {allow: public}]) {
