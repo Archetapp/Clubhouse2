@@ -1,0 +1,97 @@
+type ClubFollow @model @auth(rules: [{allow: public}]) @key(name: "byClub", fields: ["clubID"]) {
+  id: ID!
+  follower: User @connection
+  clubID: ID
+}
+
+type Nomination @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  nominator: User! @connection
+  nominee: User! @connection
+}
+
+type Follow @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  follower: User! @connection
+  followee: User! @connection
+}
+
+type Activity @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  activityType: String!
+  user: User @connection
+}
+
+type Event @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  date: AWSDateTime!
+  description: String
+  room: Room! @connection
+}
+
+type TopicCategory @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  nam: String!
+  topics: [Topic] @connection(keyName: "byTopicCategory", fields: ["id"])
+}
+
+type Topic @model @auth(rules: [{allow: public}]) @key(name: "byTopicCategory", fields: ["topiccategoryID"]) {
+  id: ID!
+  name: String!
+  clubs: [ClubTopic] @connection(keyName: "byTopic", fields: ["id"])
+  topiccategoryID: ID
+}
+
+type ExternalHandle {
+  platform: String!
+  handle: String!
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  handle: String!
+  followerCount: Int!
+  followingCount: Int!
+  bio: String
+  externalHandles: [ExternalHandle]
+  joinDate: AWSDateTime
+  clubs: [ClubUser] @connection(keyName: "byUser", fields: ["id"])
+}
+
+type RoomType @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String!
+  club: ClubFollow @connection
+}
+
+type Club @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  members: [ClubUser!] @connection(keyName: "byClub", fields: ["id"])
+  description: String
+  topics: [ClubTopic] @connection(keyName: "byClub", fields: ["id"])
+  clubFollows: [ClubFollow] @connection(keyName: "byClub", fields: ["id"])
+}
+
+type Room @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  topic: String
+  club: ClubFollow @connection
+}
+
+type ClubUser @model(queries: null) @key(name: "byClub", fields: ["clubID", "userID"]) @key(name: "byUser", fields: ["userID", "clubID"]) @auth(rules: [{allow: public}, {allow: public}]) {
+  id: ID!
+  clubID: ID!
+  userID: ID!
+  club: Club! @connection(fields: ["clubID"])
+  user: User! @connection(fields: ["userID"])
+}
+
+type ClubTopic @model(queries: null) @key(name: "byClub", fields: ["clubID", "topicID"]) @key(name: "byTopic", fields: ["topicID", "clubID"]) @auth(rules: [{allow: public}, {allow: public}]) {
+  id: ID!
+  clubID: ID!
+  topicID: ID!
+  club: Club! @connection(fields: ["clubID"])
+  topic: Topic! @connection(fields: ["topicID"])
+}
